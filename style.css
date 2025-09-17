@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+.start-button {
+    position: absolute;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.start-button:hover {
+    transform: translate(-50%, -50%) scale(5);
+}
+
+h1 {
+    text-align: center;
+
+    color: aliceblue;
+    background-color: black;
+}
