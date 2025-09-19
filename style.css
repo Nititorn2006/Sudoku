@@ -1,6 +1,13 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Audiowide", sans-serif;
+    background-color: black;
 }
 
 canvas {
@@ -8,7 +15,7 @@ canvas {
 }
 
 .start-button {
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%) scale(3);
 }
 
@@ -17,8 +24,11 @@ canvas {
 }
 
 h1 {
+    margin: 10px;
+    padding-top: 20%;
     text-align: center;
-
-    color: aliceblue;
+    font-weight: bold;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
     background-color: black;
 }
