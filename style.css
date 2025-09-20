@@ -1,7 +1,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,11 +23,8 @@ canvas {
 }
 
 h1 {
-    margin: 10px;
-    padding-top: 20%;
     text-align: center;
     font-weight: bold;
     font-size: 6rem;
     color: rgb(255, 255, 255);
-    background-color: black;
 }
